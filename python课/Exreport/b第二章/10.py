@@ -1,0 +1,5 @@
+a=eval(input('a='))
+b=eval(input('b='))
+c=eval(input('c='))
+print('x1=a+b+c=%d+%d+%d=%d'%(a,b,c,a+b+c))
+print('x1=a-b-c=%d-%d-%d=%d'%(a,b,c,a-b-c))

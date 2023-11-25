@@ -1,0 +1,10 @@
+gongzi=input('请输入你的一月工资:')
+gongzi2=input('请输入你的二月工资：')
+print(type(gongzi))
+print('你的一个月工资为:',gongzi)
+he=gongzi+gongzi2
+he1=float(gongzi)+float(gongzi2)
+print('两个月工资之和为',he,he1)
+#注意，利用input输入多个数时整数时,前面需要添加eval函数，参数直接用','分开。
+x,y,z=eval(input('请输入三个数，中间用英文逗号隔开'))
+print(x,y,z)

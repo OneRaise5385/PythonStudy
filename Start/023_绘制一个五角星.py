@@ -1,0 +1,15 @@
+from turtle import *
+setup(500,500,600,100)
+pensize(20)
+color('yellow','red')
+begin_fill()
+speed(10)
+for i in range(5):
+    forward(200)
+    right(144)
+end_fill()
+penup()
+goto(70,-140)
+color('black')
+write('Done',font=('Atial,20,normal'))
+mainloop()
