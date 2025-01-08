@@ -3,8 +3,8 @@ import logging
 import os
 
 # 获取需要的各个参数
-username = '202131100137'
-password = 'DEqs5385..'
+username = '.'
+password = '.'
 code_province = '41'
 code_city = '4101'
 location = '河南省郑州市中原区高新区科学大道100号'
@@ -62,6 +62,6 @@ else:
 
 url_login = 'https://jksb.v.zzu.edu.cn/vls6sss/zzujksb.dll/login'
 header = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+    'User-Agent': '.',
     'Content-Type': 'application/x-www-form-urlencoded',
 }
